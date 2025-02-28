@@ -110,6 +110,7 @@ What will happen if the value of int is larger than the byte?
 What is difference between equal to (==) and .equals() ?
 		The equality operator is a binary operator which is provided by java to compare primitives and objects.
 		Whereas .equals() is a method defined by Object class, which is used to compare objects.
+		//Explain it with Example 
 
 		In order to compare objects:
 		Equality operator (==) returns true only if both objects references points to the same object.
