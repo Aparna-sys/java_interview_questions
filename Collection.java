@@ -27,6 +27,12 @@ What is Java Collection Framework?
           ├── 🔵 Hashtable (Class)  ⇽ Implements Map
                  ├── 🔵 Properties (Class)  ⇽ Extends Hashtable
 
+Legend:
+🟢 Interface
+🔵 Class
+⇽ Implements (for interfaces)
+├── Extends (for classes)
+
 
     This framework was introduced in Java version 1.2.
     -> Reduced the development effort.
