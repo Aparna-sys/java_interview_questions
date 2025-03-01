@@ -3,6 +3,31 @@ What is Java Collection Framework?
     A java collection framework is a collection of interfaces and classes which are used to store and
     process data efficiently, as a Collection is something which is used to store Data objects.
 
+🟢 **Iterable** (Interface)
+   ├── 🟢 Collection (Interface)
+   │      ├── 🟢 List (Interface)  ← Ordered, Indexed
+   │      │      ├── 🔵 ArrayList (Class)  ⇽ Implements List
+   │      │      ├── 🔵 LinkedList (Class)  ⇽ Implements List, Queue
+   │      │      ├── 🔵 Vector (Class)  ⇽ Implements List
+   │      │      │      ├── 🔵 Stack (Class)  ⇽ Extends Vector
+   │      │
+   │      ├── 🟢 Queue (Interface)  ← FIFO Order
+   │      │      ├── 🔵 PriorityQueue (Class)  ⇽ Implements Queue
+   │      │      ├── 🔵 ArrayDeque (Class)  ⇽ Implements Queue, Deque
+   │      │
+   │      ├── 🟢 Set (Interface)  ← No Duplicates
+   │             ├── 🔵 HashSet (Class)  ⇽ Implements Set
+   │             │      ├── 🔵 LinkedHashSet (Class)  ⇽ Extends HashSet
+   │             ├── 🔵 TreeSet (Class)  ⇽ Implements Set, SortedSet
+   │
+   ├── 🟢 Map (Interface)  ← Key-Value Pairs, No Duplicate Keys
+          ├── 🔵 HashMap (Class)  ⇽ Implements Map
+          │      ├── 🔵 LinkedHashMap (Class)  ⇽ Extends HashMap
+          ├── 🔵 TreeMap (Class)  ⇽ Implements Map, SortedMap
+          ├── 🔵 Hashtable (Class)  ⇽ Implements Map
+                 ├── 🔵 Properties (Class)  ⇽ Extends Hashtable
+
+
     This framework was introduced in Java version 1.2.
     -> Reduced the development effort.
     -> Code quality is enhanced.
